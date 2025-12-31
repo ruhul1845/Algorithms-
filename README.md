@@ -2,6 +2,11 @@
 
 A comprehensive collection of algorithm implementations in C++ using `#include <bits/stdc++.h>`.
 
+**165 Problems** covering:
+- 📊 Dynamic Programming (100 problems)
+- 🔗 Graph Algorithms (35 problems)
+- 🌳 Binary Tree (30 problems)
+
 ---
 
 ## 📁 Dynamic Programming (100 Problems)
@@ -153,6 +158,43 @@ A comprehensive collection of algorithm implementations in C++ using `#include <
 
 ---
 
+## 📁 Binary Tree (30 Problems)
+
+| # | Problem/Topic | File |
+|---|---------------|------|
+| 01 | Binary Tree Representation | `01_binary_tree_representation.cpp` |
+| 02 | Tree Traversals (Inorder, Preorder, Postorder, Level) | `02_tree_traversals.cpp` |
+| 03 | Morris Traversal (O(1) Space) | `03_morris_traversal.cpp` |
+| 04 | Height and Depth | `04_height_depth.cpp` |
+| 05 | Diameter of Binary Tree | `05_diameter.cpp` |
+| 06 | Balanced Binary Tree | `06_balanced_tree.cpp` |
+| 07 | BST Operations (Insert, Delete, Search) | `07_bst_operations.cpp` |
+| 08 | Lowest Common Ancestor (LCA) | `08_lca.cpp` |
+| 09 | Path Sum Problems | `09_path_sum.cpp` |
+| 10 | Mirror and Symmetric Tree | `10_mirror_symmetric.cpp` |
+| 11 | Tree Views (Left, Right, Top, Bottom) | `11_tree_views.cpp` |
+| 12 | Zigzag/Spiral Traversal | `12_zigzag_spiral.cpp` |
+| 13 | Serialize and Deserialize | `13_serialize_deserialize.cpp` |
+| 14 | Construct Tree from Traversals | `14_construct_tree.cpp` |
+| 15 | Tree Width Problems | `15_tree_width.cpp` |
+| 16 | Nodes at Distance K | `16_nodes_at_distance_k.cpp` |
+| 17 | Burn Binary Tree | `17_burn_tree.cpp` |
+| 18 | Flatten Binary Tree | `18_flatten_tree.cpp` |
+| 19 | Tree Dynamic Programming | `19_tree_dp.cpp` |
+| 20 | AVL Tree (Self-Balancing) | `20_avl_tree.cpp` |
+| 21 | Red-Black Tree | `21_red_black_tree.cpp` |
+| 22 | Expression Tree | `22_expression_tree.cpp` |
+| 23 | Threaded Binary Tree | `23_threaded_binary_tree.cpp` |
+| 24 | Binary Tree to BST Conversion | `24_tree_to_bst.cpp` |
+| 25 | Miscellaneous Tree Problems | `25_tree_problems_misc.cpp` |
+| 26 | Binary Indexed Tree (Fenwick) | `26_binary_indexed_tree.cpp` |
+| 27 | Segment Tree | `27_segment_tree.cpp` |
+| 28 | Tree Iterators | `28_tree_iterators.cpp` |
+| 29 | Contest Tree Problems | `29_tree_contests.cpp` |
+| 30 | Binary Heap | `30_binary_heap.cpp` |
+
+---
+
 ## 🔧 Features
 
 - **Language**: C++
@@ -160,8 +202,10 @@ A comprehensive collection of algorithm implementations in C++ using `#include <
 - **Approaches**: 
   - DP: Both Top-Down (Memoization) and Bottom-Up (Tabulation)
   - Graph: Multiple algorithm variants where applicable
+  - Trees: Recursive, Iterative, and Morris (O(1) space) approaches
 - **Testing**: Each file includes a `main()` function with test cases
 - **Complexity**: Time and space complexity documented in comments
+- **Total Problems**: 165 (100 DP + 35 Graph + 30 Binary Tree)
 
 ---
 
@@ -179,6 +223,11 @@ Algorithm/
 │   ├── 02_bfs.cpp
 │   ├── ... (35 files)
 │   └── 35_graph_traversal_applications.cpp
+├── binary tree/
+│   ├── 01_binary_tree_representation.cpp
+│   ├── 02_tree_traversals.cpp
+│   ├── ... (30 files)
+│   └── 30_binary_heap.cpp
 └── README.md
 ```
 
@@ -225,6 +274,25 @@ g++ -o output filename.cpp
 | **Network Flow** | Ford-Fulkerson, Dinic's |
 | **Tree Algorithms** | LCA, Diameter, Centroid, HLD, Tree DP |
 | **Special** | Topological Sort, Euler Path, Graph Coloring, TSP |
+
+---
+
+## 📚 Binary Tree Problem Categories
+
+| Category | Problems |
+|----------|----------|
+| **Traversals** | Inorder, Preorder, Postorder, Level Order, Morris, Zigzag/Spiral |
+| **Basic Problems** | Height, Depth, Diameter, Balanced Check, Width |
+| **BST Operations** | Search, Insert, Delete, Floor, Ceiling, Range Queries |
+| **Path Problems** | Path Sum, Max Path Sum, Root-to-Leaf Paths, LCA |
+| **Tree Transformations** | Mirror, Invert, Flatten, Serialize/Deserialize |
+| **Views** | Left View, Right View, Top View, Bottom View, Boundary |
+| **Tree Construction** | From Preorder+Inorder, Postorder+Inorder, Level+Inorder |
+| **Self-Balancing Trees** | AVL Tree, Red-Black Tree |
+| **Advanced Data Structures** | Segment Tree, Binary Indexed Tree (Fenwick), Threaded Tree |
+| **Tree DP** | House Robber III, Binary Tree Cameras, Distribute Coins |
+| **Special Trees** | Expression Tree, Binary Heap, Complete/Perfect Tree |
+| **Contest Problems** | Burn Tree, Nodes at Distance K, Duplicate Subtrees |
 
 ---
 
