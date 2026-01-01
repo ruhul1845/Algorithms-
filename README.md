@@ -2,10 +2,11 @@
 
 A comprehensive collection of algorithm implementations in C++ using `#include <bits/stdc++.h>`.
 
-**165 Problems** covering:
+**175 Problems** covering:
 - 📊 Dynamic Programming (100 problems)
 - 🔗 Graph Algorithms (35 problems)
 - 🌳 Binary Tree (30 problems)
+- 🔍 Binary Search (10 problems)
 
 ---
 
@@ -195,6 +196,23 @@ A comprehensive collection of algorithm implementations in C++ using `#include <
 
 ---
 
+## 📁 Binary Search (10 Problems)
+
+| # | Problem/Topic | File |
+|---|---------------|------|
+| 01 | Basic Binary Search | `01_basic_binary_search.cpp` |
+| 02 | First and Last Occurrence | `02_first_last_occurrence.cpp` |
+| 03 | Rotated Sorted Array | `03_rotated_sorted_array.cpp` |
+| 04 | Binary Search on Answer | `04_binary_search_on_answer.cpp` |
+| 05 | Search in 2D Matrix | `05_search_in_2d_matrix.cpp` |
+| 06 | Peak Element | `06_peak_element.cpp` |
+| 07 | Specialized Binary Search | `07_specialized_binary_search.cpp` |
+| 08 | Ternary Search | `08_ternary_search.cpp` |
+| 09 | Exponential Search | `09_exponential_search.cpp` |
+| 10 | Advanced Applications | `10_advanced_applications.cpp` |
+
+---
+
 ## 🔧 Features
 
 - **Language**: C++
@@ -203,9 +221,10 @@ A comprehensive collection of algorithm implementations in C++ using `#include <
   - DP: Both Top-Down (Memoization) and Bottom-Up (Tabulation)
   - Graph: Multiple algorithm variants where applicable
   - Trees: Recursive, Iterative, and Morris (O(1) space) approaches
+  - Binary Search: Iterative, Recursive, Optimization techniques
 - **Testing**: Each file includes a `main()` function with test cases
 - **Complexity**: Time and space complexity documented in comments
-- **Total Problems**: 165 (100 DP + 35 Graph + 30 Binary Tree)
+- **Total Problems**: 175 (100 DP + 35 Graph + 30 Binary Tree + 10 Binary Search)
 
 ---
 
@@ -228,6 +247,11 @@ Algorithm/
 │   ├── 02_tree_traversals.cpp
 │   ├── ... (30 files)
 │   └── 30_binary_heap.cpp
+├── binary search/
+│   ├── 01_basic_binary_search.cpp
+│   ├── 02_first_last_occurrence.cpp
+│   ├── ... (10 files)
+│   └── 10_advanced_applications.cpp
 └── README.md
 ```
 
@@ -293,6 +317,23 @@ g++ -o output filename.cpp
 | **Tree DP** | House Robber III, Binary Tree Cameras, Distribute Coins |
 | **Special Trees** | Expression Tree, Binary Heap, Complete/Perfect Tree |
 | **Contest Problems** | Burn Tree, Nodes at Distance K, Duplicate Subtrees |
+
+---
+
+## 📚 Binary Search Problem Categories
+
+| Category | Problems |
+|----------|----------|
+| **Basic Search** | Iterative, Recursive, STL, Lower/Upper Bound, Ascending/Descending |
+| **Variants** | First/Last Occurrence, Ceiling, Floor, Count Occurrences |
+| **Rotated Arrays** | Search in Rotated Array, Find Min/Max, Rotation Count |
+| **Search on Answer** | Square Root, Book Allocation, Aggressive Cows, Painter's Partition |
+| **2D Matrix** | Search in Matrix, Row with Max 1s, Median, Kth Smallest, Peak Element |
+| **Peak Problems** | Find Peak, Mountain Array, Bitonic Array, Search in Bitonic |
+| **Specialized** | K Closest Elements, Split Array, Ship Packages, Koko Bananas |
+| **Advanced Search** | Ternary Search, Exponential Search, Interpolation Search, Jump Search |
+| **Fibonacci Search** | Meta Binary Search, Ubiquitous Binary Search |
+| **Applications** | LIS, Russian Doll, Pair Distance, Maximum Value, Frequency Stack |
 
 ---
 
